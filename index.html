@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>DevFest 2023</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-none">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">DevFest</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        <a class="nav-link" href="./pages/agenda.html">Agenda</a>
+                        <a class="nav-link" href="./pages/galeria.html">Galeria</a>
+                        <a class="nav-link" href="./pages/entradas.html">Entradas</a>
+                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main id="main-index">
+        <div class="slide">
+            <h1 id="h1-index"><span class="typed-text">El evento de programación más grande de habla hispana!</span>
+            </h1>
+        </div>
+        <hr>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nIzbOYRw14g"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+        <hr>
+        <div class="container">
+            <h2 id="headline">Días para el evento</h2>
+            <div id="countdown">
+                <ul>
+                    <li class="li-count"><span id="days"></span>days</li>
+                    <li class="li-count"><span id="hours"></span>Hours</li>
+                    <li class="li-count"><span id="minutes"></span>Minutes</li>
+                    <li class="li-count"><span id="seconds"></span>Seconds</li>
+                </ul>
+            </div>
+            <div id="content" class="emoji">
+                <span>🥳</span>
+                <span>🎉</span>
+                <span>🎂</span>
+            </div>
+        </div>
+        <hr>
+        <div class="entradas-boton">
+            <a href="./pages/entradas.html"><button>Entradas</button></a>
+        </div>
+        <h2 id="h2-index">Sponsors</h2>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <img src="./img/sponsors/aws.webp" alt="">
+                </div>
+                <div class="col">
+                    <img src="./img/sponsors/azure.webp" alt="">
+                </div>
+                <div class="col">
+                    <img src="./img/sponsors/cisco.webp" alt="">
+                </div>
+                <div class="col">
+                    <img src="./img/sponsors/citrix.webp" alt="">
+                </div>
+                <div class="col">
+                    <img src="./img/sponsors/docker.webp" alt="">
+                </div>
+                <div class="col">
+                    <img src="./img/sponsors/freepbx.webp" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <img src="./img/sponsors/kubernetes.webp" alt="">
+                </div>
+                <div class="col">
+                    <img src="./img/sponsors/lenovo.webp" alt="">
+                </div>
+                <div class="col">
+                    <img src="./img/sponsors/microsoft.webp" alt="">
+                </div>
+                <div class="col">
+                    <img src="./img/sponsors/rancher.png" alt="">
+                </div>
+                <div class="col">
+                    <img src="./img/sponsors/redhat.webp" alt="">
+                </div>
+                <div class="col">
+                    <img src="./img/sponsors/vmware.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="social-networks">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </div>
+        <div class="footer-image">
+            <a href="#main-index"><img src="./img/logo-removebg-preview-2.png" alt="DevFest | 2023"></a>
+            <p><span>&#169;</span>Nicolas Ventre</p>
+        </div>
+        <div>
+            <span>Enterate de las novedades</span>
+            <input type="email" name="mail" id="mail" placeholder="mail@mail.com">
+            <button type="submit">Suscribir</button>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="./js/countdown.js"></script>
+</body>
+
+</html>
