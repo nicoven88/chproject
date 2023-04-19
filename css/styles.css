@@ -592,6 +592,10 @@ h1 {
         font-size: 14.5px;
     }
 
+    .li-count {
+        font-size: 13px;
+    }
+
     footer {
         display: flex;
         justify-content: space-between;
@@ -650,6 +654,10 @@ h1 {
         padding: 0;
         width: 100%;
         font-size: 12px;
+    }
+
+    .li-count {
+        font-size: 11px;
     }
 
     footer {
