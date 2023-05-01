@@ -259,10 +259,10 @@ h1 {
       transform-style: preserve-3d;
       border: solid 1px;
       box-sizing: unset; }
-      .panel-entradas .precios .tarjeta .media-show {
-        display: none; }
       .panel-entradas .precios .tarjeta:hover {
         transform: rotateY(0.5turn); }
+      .panel-entradas .precios .tarjeta .media-show {
+        display: none; }
       .panel-entradas .precios .tarjeta .card__face {
         position: absolute;
         top: 0;
@@ -366,7 +366,36 @@ h1 {
     color: white; }
   .fa-instagram {
     background: #125688;
-    color: white; } }
+    color: white; }
+  .panel-entradas .precios {
+    all: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    width: 1000px; }
+    .panel-entradas .precios .tarjeta {
+      all: unset !important;
+      width: 240px;
+      height: 300px;
+      margin: 5px !important; }
+      .panel-entradas .precios .tarjeta .card__face {
+        all: unset; }
+        .panel-entradas .precios .tarjeta .card__face img {
+          display: none; }
+        .panel-entradas .precios .tarjeta .card__face .card__face--back {
+          all: unset; }
+          .panel-entradas .precios .tarjeta .card__face .card__face--back img {
+            display: none; }
+      .panel-entradas .precios .tarjeta .media-show {
+        display: flex; }
+        .panel-entradas .precios .tarjeta .media-show img {
+          width: 240px;
+          height: 300px;
+          border: solid 1px;
+          object-fit: cover; } }
 
 @media screen and (max-width: 480px) {
   header {
@@ -431,7 +460,8 @@ h1 {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 20px; }
+    padding: 0px;
+    margin: 0; }
   .footer-image a img {
     width: 250px; }
   .fa {
@@ -453,11 +483,8 @@ h1 {
   .fa-instagram {
     background: #125688;
     color: white; }
-  .tarjeta, .tarjeta:hover, .card__face, .card__face--back, .media-show {
-    all: initial; }
-  .card__face {
-    display: none; }
-  .precios {
+  .panel-entradas .precios {
+    all: unset;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -465,17 +492,26 @@ h1 {
     margin: 0;
     padding: 0;
     width: 1000px; }
-  .tarjeta {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 240px;
-    height: 300px;
-    margin: 5px; }
-  .media-show a img {
-    width: 240px;
-    height: 300px;
-    border: solid 1px; }
+    .panel-entradas .precios .tarjeta {
+      all: unset !important;
+      width: 240px;
+      height: 300px;
+      margin: 5px !important; }
+      .panel-entradas .precios .tarjeta .card__face {
+        all: unset; }
+        .panel-entradas .precios .tarjeta .card__face img {
+          display: none; }
+        .panel-entradas .precios .tarjeta .card__face .card__face--back {
+          all: unset; }
+          .panel-entradas .precios .tarjeta .card__face .card__face--back img {
+            display: none; }
+      .panel-entradas .precios .tarjeta .media-show {
+        display: flex; }
+        .panel-entradas .precios .tarjeta .media-show img {
+          width: 240px;
+          height: 300px;
+          border: solid 1px;
+          object-fit: cover; }
   #headline {
     font-size: calc(1.5rem * var(--smaller)); }
   .li-count {
@@ -546,9 +582,8 @@ h1 {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 20px; }
-  .footer-image a img {
-    width: 250px; }
+    padding: 0px;
+    margin: 0; }
   .fa {
     padding: 7px;
     font-size: 30px;
@@ -567,7 +602,36 @@ h1 {
     color: white; }
   .fa-instagram {
     background: #125688;
-    color: white; } }
+    color: white; }
+  .panel-entradas .precios {
+    all: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    width: 1000px; }
+    .panel-entradas .precios .tarjeta {
+      all: unset !important;
+      width: 240px;
+      height: 300px;
+      margin: 5px !important; }
+      .panel-entradas .precios .tarjeta .card__face {
+        all: unset; }
+        .panel-entradas .precios .tarjeta .card__face img {
+          display: none; }
+        .panel-entradas .precios .tarjeta .card__face .card__face--back {
+          all: unset; }
+          .panel-entradas .precios .tarjeta .card__face .card__face--back img {
+            display: none; }
+      .panel-entradas .precios .tarjeta .media-show {
+        display: flex; }
+        .panel-entradas .precios .tarjeta .media-show img {
+          width: 240px;
+          height: 300px;
+          border: solid 1px;
+          object-fit: cover; } }
 
 @media screen and (max-width: 320px) {
   header {
@@ -632,7 +696,8 @@ h1 {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 20px; }
+    padding: 0px;
+    margin: 0; }
   .footer-image a img {
     width: 250px; }
   .fa {
@@ -653,4 +718,33 @@ h1 {
     color: white; }
   .fa-instagram {
     background: #125688;
-    color: white; } }
+    color: white; }
+  .panel-entradas .precios {
+    all: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    width: 1000px; }
+    .panel-entradas .precios .tarjeta {
+      all: unset !important;
+      width: 240px;
+      height: 300px;
+      margin: 5px !important; }
+      .panel-entradas .precios .tarjeta .card__face {
+        all: unset; }
+        .panel-entradas .precios .tarjeta .card__face img {
+          display: none; }
+        .panel-entradas .precios .tarjeta .card__face .card__face--back {
+          all: unset; }
+          .panel-entradas .precios .tarjeta .card__face .card__face--back img {
+            display: none; }
+      .panel-entradas .precios .tarjeta .media-show {
+        display: flex; }
+        .panel-entradas .precios .tarjeta .media-show img {
+          width: 240px;
+          height: 300px;
+          border: solid 1px;
+          object-fit: cover; } }
