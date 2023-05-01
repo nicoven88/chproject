@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
     <title>DevFest 2023</title>
@@ -35,9 +35,9 @@
             </div>
         </nav>
     </header>
-    <main id="main-index">
+    <main id="main__index">
         <div class="slide">
-            <h1 id="h1-index"><span class="typed-text">El evento de programación más grande de habla hispana!</span>
+            <h1 id="h1__index"><span class="h1__index__typed__text">El evento de programación más grande de habla hispana!</span>
             </h1>
         </div>
         <hr>
@@ -65,7 +65,7 @@
             </div>
         </div>
         <hr>
-        <div class="entradas-boton">
+        <div class="entradas__boton">
             <a href="./pages/entradas.html"><button>Entradas</button></a>
         </div>
         <h2 id="h2-index">Sponsors</h2>
@@ -114,20 +114,25 @@
             </div>
         </div>
     </main>
+    <hr>
     <footer>
-        <div class="social-networks">
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-instagram"></a>
-        </div>
-        <div class="footer-image">
-            <a href="#main-index"><img src="./img/logo-removebg-preview-2.png" alt="DevFest | 2023"></a>
-            <p><span>&#169;</span>Nicolas Ventre</p>
-        </div>
-        <div>
-            <span>Enterate de las novedades</span>
-            <input type="email" name="mail" id="mail" placeholder="mail@mail.com">
-            <button type="submit">Suscribir</button>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                </div>
+                <div class="col">
+                    <a href="#main__index"><img src="./img/logo-removebg-preview-2.png" alt="DevFest | 2023"></a>
+                    <p><span>&#169;</span>Nicolas Ventre</p>
+                </div>
+                <div class="col">
+                    <p>Enterate de las novedades</p>
+                    <input type="email" name="mail" id="mail" placeholder="mail@mail.com">
+                    <button type="submit">Suscribir</button>
+                </div>
+            </div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
